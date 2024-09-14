@@ -11,7 +11,15 @@ export default {
         DEFAULT: '1.25rem',
       }
     },
-    extend: {},
+    extend: {
+      colors: {
+        'dark-navy': '#242A3A',
+        'steel-gray': '#3B3F4E',
+        'sunset-yellow': '#F6B12B',
+        'smoky-gray': '#3a3a3a',
+        'storm-gray': '#42485C',
+      },
+    },
   },
   plugins: [],
 }
