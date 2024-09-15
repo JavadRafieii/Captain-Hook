@@ -14,3 +14,9 @@
     font-variation-settings:
         "wdth" 100;
 }
+
+.ribeye-regular {
+    font-family: "Ribeye", serif;
+    font-weight: 400;
+    font-style: normal;
+}

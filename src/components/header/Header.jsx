@@ -5,7 +5,7 @@ import PresaleSlider from "../presaleSlider/PresaleSlider";
 
 function Header() {
     return (
-        <header>
+        <header className="w-full xl:w-full xl:absolute xl:z-[1000] xl:top-0 xl:left-0">
             <div className="w-full max-w-[1280px] 2xl:max-w-[1400px] mx-auto">
                 <div className="grid grid-cols-12 gap-x-[8px] xl:mt-[24px]">
                     <div className="hidden xl:flex justify-center xl:col-span-1 h-[88px] bg-dark-navy rounded-[8px] p-[8px]">
