@@ -8,10 +8,10 @@ const DATA = {
         { id: 6, text: "FAQ" },
     ],
     HEADER_RIGHT: [
-        { id: 1, text: "AUDIT", link: "" },
-        { id: 2, text: "KYC", link: "" },
+        { id: 1, text: "AUDIT", link: "#" },
+        { id: 2, text: "KYC", link: "#" },
         { id: 3, text: "Whitepaper", link: "https://captain-hook.gitbook.io/white-paper" },
-        { id: 4, text: "Play", link: "" },
+        { id: 4, text: "Play", link: "#" },
     ],
     PRESALESLIDER: [
         { id: 1, text: "Captain Hook", link: "#" },
@@ -29,7 +29,7 @@ const DATA = {
         { id: 13, text: "Captain Hook", link: "#" },
         { id: 14, text: "Captain Hook", link: "#" },
         { id: 15, text: "Captain Hook", link: "#" },
-    ]
+    ],
 }
 
 export default DATA;

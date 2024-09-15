@@ -29,7 +29,7 @@ function ParallaxSection() {
     }, []);
 
     return (
-        <div ref={sceneRef} className="relative">
+        <div ref={sceneRef} className="relative overflow-hidden">
             <div>
                 <img src={BgParallax} alt="background parallax" loading="lazy" className="w-full h-[500px] lg:h-auto" />
             </div>

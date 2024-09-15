@@ -19,6 +19,11 @@ export default {
         'smoky-gray': '#3a3a3a',
         'storm-gray': '#42485C',
       },
+      backgroundImage: {
+        'footer': "url('/bg-footer.png')",
+        'linear': " linear-gradient(90deg, rgba(26,31,63,1) 10%, rgba(31,37,77,1) 50%, rgba(26,31,63,1) 90%)",
+
+      }
     },
   },
   plugins: [],
