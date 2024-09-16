@@ -22,6 +22,9 @@ export default {
       backgroundImage: {
         'footer': "url('/bg-footer.png')",
         'stick-slider': "url('/stick-background-slider.png')",
+        'blue': "url('/blue-background.png')",
+        'paper-play': "url('/paper-play-CH.png')",
+        'paper-play-mobile': "url('/paper-play-CH-mobile.png')",
         'linear': " linear-gradient(90deg, rgba(26,31,63,1) 10%, rgba(31,37,77,1) 50%, rgba(26,31,63,1) 90%)",
 
       }
