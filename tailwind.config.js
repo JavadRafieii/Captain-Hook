@@ -21,6 +21,7 @@ export default {
       },
       backgroundImage: {
         'footer': "url('/bg-footer.png')",
+        'stick-slider': "url('/stick-background-slider.png')",
         'linear': " linear-gradient(90deg, rgba(26,31,63,1) 10%, rgba(31,37,77,1) 50%, rgba(26,31,63,1) 90%)",
 
       }
