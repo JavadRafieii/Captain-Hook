@@ -7,6 +7,7 @@ import Gear from "/gear.png";
 import Gear2 from "/gear-2.png";
 import Gear3 from "/gear-3.png";
 import Gear4 from "/gear-4.png";
+import About from "./components/about/about";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Parallax />
       <RailSlider images={{ src1: Gear, src2: Gear, src3: Gear, }} />
       <Play />
+      <About />
       <RailSlider images={{ src1: Gear2, src2: Gear3, src3: Gear4, }} />
       <Footer />
     </main>
