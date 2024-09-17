@@ -12,6 +12,9 @@ export default {
       }
     },
     extend: {
+      screens: {
+        '3xl': '1950px',
+      },
       colors: {
         'dark-navy': '#242A3A',
         'steel-gray': '#3B3F4E',
