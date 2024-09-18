@@ -21,6 +21,7 @@ export default {
         'sunset-yellow': '#F6B12B',
         'smoky-gray': '#3a3a3a',
         'storm-gray': '#42485C',
+        'light-red': '#FE375B',
       },
       backgroundImage: {
         'footer': "url('/bg-footer.png')",
@@ -30,6 +31,7 @@ export default {
         'paper-play-mobile': "url('/paper-play-CH-mobile.png')",
         'stick-about': "url('/stick-background-about.jpg')",
         'paper-about': "url('/paper-about.png')",
+        'presale-bg-1': "url('/presale-bg-1.png')",
         'linear': " linear-gradient(90deg, rgba(26,31,63,1) 10%, rgba(31,37,77,1) 50%, rgba(26,31,63,1) 90%)",
 
       }
