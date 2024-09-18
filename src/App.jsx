@@ -7,7 +7,7 @@ import Gear from "/gear.png";
 import Gear2 from "/gear-2.png";
 import Gear3 from "/gear-3.png";
 import Gear4 from "/gear-4.png";
-import About from "./components/about/about";
+import About from "./components/about/AboutCH";
 
 function App() {
   return (
