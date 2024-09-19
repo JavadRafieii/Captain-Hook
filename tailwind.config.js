@@ -13,6 +13,7 @@ export default {
     },
     extend: {
       screens: {
+        'xxl': '1800px',
         '3xl': '1950px',
       },
       colors: {
