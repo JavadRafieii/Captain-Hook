@@ -1,6 +1,6 @@
 import Container from "../container/Container";
 import DATA from "../../../data/data";
-import Logo from "/capitan-hook-logo.png";
+import Logo from "/Captain-Hook-Logo.png";
 import Wood from "/bg-footer-mobile.png";
 
 function Footer() {

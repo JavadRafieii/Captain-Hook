@@ -1,5 +1,5 @@
 import DATA from "../../../data/data";
-import Logo from "/capitan-hook-logo.png";
+import Logo from "/Captain-Hook-Logo.png";
 import PresaleSlider from "../presaleSlider/PresaleSlider";
 
 
@@ -29,7 +29,7 @@ function Header() {
                                     </ul>
                                 </div>
                                 <div className="flex items-center justify-end space-x-6">
-                                    <figure className="h-[55px] xl:hidden">
+                                    <figure className="h-[55px] w-[55px] xl:hidden">
                                         <img src={Logo} alt="Capitan Hook" loading="lazy" className="w-full h-full" />
                                     </figure>
                                     <ul className="hidden h-full xl:flex items-center justify-end space-x-6 open-sans-Medium text-base">
