@@ -10,6 +10,7 @@ import Gear4 from "/gear-4.png";
 import About from "./components/about/AboutCH";
 import Presale from "./components/presale/Presale";
 import Capt from "./components/capt/Capt";
+import Roadmap from "./components/roadmap/Roadmap";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <RailSlider images={{ src1: Gear2, src2: Gear3, src3: Gear4, }} />
       <Presale />
       <Capt />
+      <Roadmap />
       <Footer />
     </main>
   );

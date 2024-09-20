@@ -8,6 +8,8 @@ import Treasure from "/treasure.png";
 import Bg3 from "/presale-bg-5.jpg";
 import BgMobile3 from "/presale-bg-5-mobile.jpg";
 import Boat from "/boat.png";
+import Gradient from "/gradient.png";
+import GradientMobile from "/gradient-mobile.png";
 
 function Capt() {
     return (
@@ -40,6 +42,8 @@ function Capt() {
                 <img src={Boat} alt="boat" loading="lazy" className="w-[90%] md:w-[70%] absolute bottom-0 left-[5%] md:left-[15%]" />
                 <img src={Bg3} alt="background CAPT TOKEN" loading="lazy" className="hidden lg:block w-full" />
                 <img src={BgMobile3} alt="background CAPT TOKEN" loading="lazy" className="lg:hidden w-full h-[400px] sm:h-[500px] md:h-[600px]" />
+                <img src={Gradient} alt="gradient" loading="lazy" className="hidden lg:block w-full h-[450px] absolute left-0" />
+                <img src={GradientMobile} alt="gradient" loading="lazy" className="w-full lg:hidden absolute left-0" />
             </div>
         </>
     );
