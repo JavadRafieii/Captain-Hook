@@ -23,6 +23,7 @@ export default {
         'smoky-gray': '#3a3a3a',
         'storm-gray': '#42485C',
         'light-red': '#FE375B',
+        'navy-blue': '#0C1124',
       },
       backgroundImage: {
         'footer': "url('/bg-footer.png')",
@@ -33,7 +34,8 @@ export default {
         'stick-about': "url('/stick-background-about.jpg')",
         'paper-about': "url('/paper-about.png')",
         'presale-bg-1': "url('/presale-bg-1.png')",
-        'linear': " linear-gradient(90deg, rgba(26,31,63,1) 10%, rgba(31,37,77,1) 50%, rgba(26,31,63,1) 90%)",
+        'linear': "linear-gradient(90deg, rgba(26,31,63,1) 10%, rgba(31,37,77,1) 50%, rgba(26,31,63,1) 90%)",
+        'linear-gradient': "linear-gradient(0deg,rgba(11,16,35,1) 0%,rgba(255,255,255,0) 100%)",
         'purple-gradient': "linear-gradient(90deg, rgba(26,31,63,1) 10%, rgba(31,37,77,1) 50%, rgba(26,31,63,1) 90%)",
         'paper-FAQ': "url('/FAQ-paper.png')",
       }
