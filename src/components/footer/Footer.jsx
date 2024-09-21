@@ -5,7 +5,7 @@ import Wood from "/bg-footer-mobile.png";
 
 function Footer() {
     return (
-        <footer className="bg-linear py-10 lg:py-0">
+        <footer className="bg-linear pb-10 lg:py-0">
             <img src={Wood} alt="footer" loading="lazy" className="h-[80px] object-cover mb-10 lg:hidden"/>
             <div className="lg:h-[220px] lg:bg-footer bg-cover">
                 <Container>

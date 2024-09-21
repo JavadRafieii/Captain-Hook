@@ -75,6 +75,13 @@ const DATA = {
             content: ["Token Listing (CEX)", "Marketing", "Adding New Features", "Continuous Improvement", "Live Ops & Events"]
         },
     ],
+    FAQ: [
+        { id: 1, question: "What is Captain Hook?", answer: "Captain Hook is an exciting Play-to-Earn fishing game built on the Binance Smart Chain. It combines simple, addictive gameplay with the opportunity to earn rewards, allowing players to embark on thrilling fishing adventures, upgrade their gear, and get rich while having fun!" },
+        { id: 2, question: "How to buy $CAPT?", answer: `To buy CAPT tokens, start by clicking the "BUY CAPT" button. Next, connect your wallet in the presale section. Choose your preferred token (BNB, BTC, ETH, MATIC, USDT, USDC), enter the amount you wish to purchase, and click the buy button. Finally, confirm the transaction in your wallet. It’s that simple!` },
+        { id: 3, question: "When does the presale start and end?", answer: "To stay updated on the presale start date, follow our social media channels. The presale will run for 75 days from the start date." },
+        { id: 4, question: "What is the hard cap of the presale?", answer: "The hard cap of the presale is $252,000. This amount will help us advance our commitments, including the development and launch of the game at its best. However, the soft cap for the project is $110,000." },
+        { id: 5, question: "How do I receive my tokens?", answer: "You will receive your CAPT tokens immediately after purchase. To access your tokens, simply add the token contract address to your wallet on the Binance Smart Chain. It's that easy!" },
+    ],
 }
 
 export default DATA;

@@ -35,7 +35,7 @@ export default {
         'presale-bg-1': "url('/presale-bg-1.png')",
         'linear': " linear-gradient(90deg, rgba(26,31,63,1) 10%, rgba(31,37,77,1) 50%, rgba(26,31,63,1) 90%)",
         'purple-gradient': "linear-gradient(90deg, rgba(26,31,63,1) 10%, rgba(31,37,77,1) 50%, rgba(26,31,63,1) 90%)",
-
+        'paper-FAQ': "url('/FAQ-paper.png')",
       }
     },
   },
