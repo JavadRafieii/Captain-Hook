@@ -30,7 +30,7 @@ function Header() {
                                 </div>
                                 <div className="flex items-center justify-end space-x-6">
                                     <figure className="h-[55px] w-[55px] xl:hidden">
-                                        <img src={Logo} alt="Capitan Hook" loading="lazy" className="w-full h-full" />
+                                        <img src={Logo} alt="Capitan Hook" loading="lazy" className="h-[55px] w-[55px]" />
                                     </figure>
                                     <ul className="hidden h-full xl:flex items-center justify-end space-x-6 open-sans-Medium text-base">
                                         {DATA.HEADER_RIGHT.map(item => {
