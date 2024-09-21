@@ -1,11 +1,30 @@
 import DATA from "../../../data/data";
 import Logo from "/Captain-Hook-Logo.png";
 import PresaleSlider from "../presaleSlider/PresaleSlider";
-
+import { useEffect, useState } from 'react';
+import "./style.css";
 
 function Header() {
+    const [isScrolled, setIsScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 100) {
+                setIsScrolled(true);
+            } else {
+                setIsScrolled(false);
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
     return (
-        <header className="w-full xl:w-full xl:absolute xl:z-[1000] xl:top-0 xl:left-0">
+        <header className={`w-full xl:w-full xl:absolute xl:z-[1000] xl:top-0 xl:left-0 ${isScrolled ? 'scrolled' : ''}`}>
             <div className="w-full max-w-[1280px] 2xl:max-w-[1400px] mx-auto">
                 <div className="grid grid-cols-12 gap-x-[8px] xl:mt-[24px]">
                     <div className="hidden xl:flex xl:items-center xl:justify-center xl:col-span-1 h-[88px] bg-dark-navy rounded-[8px]">
