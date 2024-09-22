@@ -31,12 +31,12 @@ const DATA = {
         { id: 15, text: "Captain Hook", link: "#" },
     ],
     STAG: [
-        { id: 1, title: "Stage 1", price: "$0.0098", start: "(Soon)" },
-        { id: 2, title: "Stage 2", price: "$0.0105", start: "(Soon)" },
-        { id: 3, title: "Stage 3", price: "$0.0113", start: "(Soon)" },
-        { id: 4, title: "Stage 4", price: "$0.0120", start: "(Soon)" },
-        { id: 5, title: "Stage 5", price: "$0.0128", start: "(Soon)" },
-        { id: 6, title: "DEX Launch", price: "$0.015", start: "(Soon)" },
+        { id: 1, title: "Stage 1", price: "$0.005", goal: "$50,400", start: "(Soon)" },
+        { id: 2, title: "Stage 2", price: "$0.006", goal: "$50,400", start: "(Soon)" },
+        { id: 3, title: "Stage 3", price: "$0.007", goal: "$50,400", start: "(Soon)" },
+        { id: 4, title: "Stage 4", price: "$0.008", goal: "$50,400", start: "(Soon)" },
+        { id: 5, title: "Stage 5", price: "$0.009", goal: "$50,400", start: "(Soon)" },
+        { id: 6, title: "DEX Launch", price: "$0.01", goal: "$50,400", start: "(Soon)" },
     ],
     ROADMAP: [
         {

@@ -7,7 +7,7 @@ import Stage from "../stage/Stage";
 function Presale() {
     return (
         <>
-            <div className="py-20 xl:py-40 bg-presale-bg-1 bg-cover">
+            <div className="py-20 xl:pt-40 bg-presale-bg-1 bg-cover">
                 <Container>
                     <h3 className="ribeye-regular text-white text-4xl text-center">PRESALE</h3>
                 </Container>

@@ -10,13 +10,13 @@ function Team() {
     return (
         <div className="Team bg-purple-gradient pb-40 lg:pb-0">
             <div className="w-full max-w-[1280px] mx-auto px-[1.25rem] md:px-[2rem] xl:px-0">
-                <h3 className="ribeye-regular text-white text-4xl text-center mb-20 xl:mb-40">Our Team Captains</h3>
+                <h3 className="ribeye-regular text-white text-4xl text-center mb-20">Our Team Captains</h3>
                 <div className="w-full max-w-[850px] mx-auto p-5 my-5 rounded-[12px] bg-[#ffffff1c]">
                     <p className="open-sans-Medium text-white text-lg text-center mb-3">
                         Behind Captain Hook stands a team of 23 dedicated specialists who bring passion and expertise to every aspect of our project. Each team member plays a crucial role. Meet our team leaders:
                     </p>
                 </div>
-                <div className="flex justify-center">
+                <div className="hidden justify-center">
                     <BigButton text={"KYC Report"} link={"#"} />
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 mt-20 lg:mt-0 lg:translate-y-20 relative">

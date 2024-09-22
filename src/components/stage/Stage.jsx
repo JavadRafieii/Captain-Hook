@@ -16,6 +16,10 @@ function Stage() {
                             <span>Price</span>
                             <span>{item.price}</span>
                         </div>
+                        <div className="flex flex-col items-center open-sans-Medium text-smoky-gray text-lg">
+                            <span>Goal</span>
+                            <span>{item.goal}</span>
+                        </div>
                         <span className="open-sans-Medium text-smoky-gray text-lg">start: {item.start}</span>
                     </div>
                 </ScrollAnimation>

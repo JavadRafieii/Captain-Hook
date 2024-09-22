@@ -24,7 +24,7 @@ function About() {
                                 Our dedicated and experienced team is the driving force behind this project. With a rich background in game development, they bring a wealth of expertise to ensure a seamless and engaging experience. Committed to delivering a high-quality game, the team’s combined skills and passion for gaming fuel our ambition to make Captain Hook a standout success in the play-to-earn space.
                             </p>
                         </div>
-                        <div className="flex items-center justify-center lg:justify-start gap-x-3 -translate-y-[30px] lg:-translate-y-[65px] lg:pl-24">
+                        <div className="invisible flex items-center justify-center lg:justify-start gap-x-3 -translate-y-[30px] lg:-translate-y-[65px] lg:pl-24">
                             <SmallButton text={"AUDIT"} src={Button2} link={"#"} />
                             <SmallButton text={"KYC"} src={Button3} link={"#"} />
                         </div>

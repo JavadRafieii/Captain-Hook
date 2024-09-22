@@ -29,7 +29,7 @@ function HambergerMenu({ onClose, isClose }) {
                             to={item.text === "$CAPT Token" ? "$CAPT-Token" : item.text}
                             spy={true}
                             smooth={true}
-                            offset={item.text === "Team" ? -200 : item.text === "$CAPT Token" ? -200 : -80}
+                            offset={item.text === "Team" ? -150 : item.text === "$CAPT Token" ? -150 : -50}
                             duration={1000}
                         >
                             {item.text}
@@ -37,13 +37,15 @@ function HambergerMenu({ onClose, isClose }) {
                     </li>
                 ))}
             </ul>
-            <ul className="flex items-center space-x-3 open-sans-Medium text-base my-6 border-t-[1px] border-[#42485C] pt-6">
+            <ul className="flex items-center open-sans-Medium text-base my-6 border-t-[1px] border-[#42485C] pt-6">
                 {DATA.HEADER_RIGHT.map(item => {
                     let styles;
                     if (item.text === "AUDIT") {
-                        styles = "bg-sunset-yellow w-[75px] h-[30px] text-smoky-gray rounded-[8px] leading-[30px]";
+                        styles = "hidden bg-sunset-yellow w-[75px] h-[30px] text-smoky-gray rounded-[8px] leading-[30px]";
                     } else if (item.text === "KYC") {
-                        styles = "bg-sunset-yellow w-[59px] h-[30px] text-smoky-gray rounded-[8px] leading-[30px]";
+                        styles = "hidden bg-sunset-yellow w-[59px] h-[30px] text-smoky-gray rounded-[8px] leading-[30px]";
+                    } else if (item.text === "Play") {
+                        styles = "hidden";
                     } else {
                         styles = "text-sunset-yellow";
                     }

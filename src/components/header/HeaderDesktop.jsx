@@ -47,7 +47,7 @@ function HeaderDesktop({ onShow }) {
                                                     to={item.text === "$CAPT Token" ? "$CAPT-Token" : item.text}
                                                     spy={true}
                                                     smooth={true}
-                                                    offset={item.text === "Team" ? -200 : item.text === "$CAPT Token" ? -200 : -80}
+                                                    offset={item.text === "Team" ? -150 : item.text === "$CAPT Token" ? -150 : -10}
                                                     duration={1000}
                                                 >
                                                     {item.text}
@@ -57,16 +57,21 @@ function HeaderDesktop({ onShow }) {
                                     </ul>
                                 </div>
                                 <div className="flex items-center justify-end space-x-6">
-                                    <figure className="h-[55px] w-[55px] xl:hidden">
-                                        <img src={Logo} alt="Capitan Hook" loading="lazy" className="h-[55px] w-[55px]" />
-                                    </figure>
+                                    <div className="flex items-center gap-10 xl:hidden">
+                                        <a href="https://captain-hook.gitbook.io/white-paper" className="open-sans-Medium text-base text-sunset-yellow">Whitepaper</a>
+                                        <figure className="h-[55px] w-[55px]">
+                                            <img src={Logo} alt="Capitan Hook" loading="lazy" className="h-[55px] w-[55px]" />
+                                        </figure>
+                                    </div>
                                     <ul className="hidden h-full xl:flex items-center justify-end space-x-6 open-sans-Medium text-base">
                                         {DATA.HEADER_RIGHT.map(item => {
                                             let styles;
                                             if (item.text === "AUDIT") {
-                                                styles = "bg-sunset-yellow w-[75px] h-[30px] text-smoky-gray rounded-[8px] leading-[30px]";
+                                                styles = "hidden bg-sunset-yellow w-[75px] h-[30px] text-smoky-gray rounded-[8px] leading-[30px]";
                                             } else if (item.text === "KYC") {
-                                                styles = "bg-sunset-yellow w-[59px] h-[30px] text-smoky-gray rounded-[8px] leading-[30px]";
+                                                styles = "hidden bg-sunset-yellow w-[59px] h-[30px] text-smoky-gray rounded-[8px] leading-[30px]";
+                                            } else if (item.text === "Play") {
+                                                styles = "hidden";
                                             } else {
                                                 styles = "text-sunset-yellow";
                                             }

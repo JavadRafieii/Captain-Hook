@@ -48,7 +48,7 @@ function ParallaxSection() {
                 <div data-depth="0.05" className="w-full h-full">
                     <img src={CloudRight} alt="cloud" loading="lazy" className="w-[120px] lg:w-[200px] xl:w-[300px] absolute z-[4] top-[150px] md:top-[100px] xl:top-[150px] right-0 md:right-[100px] xl:right-[150px]" />
                 </div>
-                <div data-depth="0.15" className="w-full h-full">
+                <div data-depth="0.08" className="w-full h-full">
                     <img src={Island} alt="island" loading="lazy" className="w-full absolute z-[5] bottom-[80px] scale-[1.3] md:scale-[1]" />
                 </div>
                 <div data-depth="0.20" className="w-full h-full">
@@ -83,7 +83,7 @@ function ParallaxSection() {
                 </div>
                 <div className="w-full h-full">
                     <img src={Capitan} alt="balloo" loading="lazy" className="md:hidden w-[300px] absolute z-[14] right-[calc(50%-150px)] bottom-[50px]" />
-                    <img src={Capitan2} alt="balloo" loading="lazy" className="hidden md:block w-[350px] lg:w-[400px] xl:w-[500px] 2xl:w-[650px] absolute z-[14] right-[calc(50%-175px)] lg:right-[calc(50%-200px)] xl:right-[calc(50%-250px)] 2xl:xl:right-[calc(50%-325px)] bottom-[80px]" />
+                    <img src={Capitan2} alt="balloo" loading="lazy" className="hidden md:block w-[350px] lg:w-[400px] xl:w-[500px] 2xl:w-[550px] absolute z-[14] right-[calc(50%-175px)] lg:right-[calc(50%-200px)] xl:right-[calc(50%-250px)] 2xl:xl:right-[calc(50%-275px)] bottom-[80px]" />
                 </div>
                 <div className="w-full h-full">
                     <p className="w-[320px] absolute right-[calc(50%-160px)] top-[50px] ribeye-regular text-white text-base text-center md:hidden">
