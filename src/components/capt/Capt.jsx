@@ -54,7 +54,7 @@ function Capt() {
                 <img src={BgMobile2} alt="background CAPT TOKEN" loading="lazy" className="lg:hidden w-full" />
             </div>
             <div className="relative">
-                <img src={Boat} alt="boat" loading="lazy" className="boat w-[90%] md:w-[70%] absolute bottom-0 left-[5%] md:left-[15%]" />
+                <img src={Boat} alt="boat" loading="lazy" className="boat w-[90%] md:w-[70%] absolute z-10 bottom-0 left-[5%] md:left-[15%]" />
                 <img src={Bg3} alt="background CAPT TOKEN" loading="lazy" className="hidden lg:block w-full" />
                 <img src={BgMobile3} alt="background CAPT TOKEN" loading="lazy" className="lg:hidden w-full h-[400px] sm:h-[500px] md:h-[600px]" />
                 <img src={Gradient} alt="gradient" loading="lazy" className="hidden lg:block w-full h-[450px] absolute left-0" />
