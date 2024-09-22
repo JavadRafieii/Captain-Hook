@@ -2,6 +2,7 @@ import Container from "../container/Container";
 import DATA from "../../../data/data";
 import Logo from "/Captain-Hook-Logo.png";
 import Wood from "/bg-footer-mobile.png";
+import { Link } from "react-scroll";
 
 function Footer() {
     return (
@@ -19,8 +20,16 @@ function Footer() {
                         <div>
                             <ul className="h-[50px] flex flex-wrap items-center justify-center lg:justify-end space-x-4 lg:space-x-6 xl:space-x-10 open-sans-Medium text-white text-base">
                                 {DATA.HEADER_LEFT.map(item => (
-                                    <li key={item.id}>
-                                        <a href="#">{item.text}</a>
+                                    <li key={item.id} className="cursor-pointer">
+                                        <Link
+                                            to={item.text === "$CAPT Token" ? "$CAPT-Token" : item.text}
+                                            spy={true}
+                                            smooth={true}
+                                            offset={item.text === "Team" ? -200 : item.text === "$CAPT Token" ? -200 : -80}
+                                            duration={1000}
+                                        >
+                                            {item.text}
+                                        </Link>
                                     </li>
                                 ))}
                             </ul>

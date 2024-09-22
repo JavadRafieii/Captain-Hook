@@ -4,7 +4,7 @@ import "./style.css";
 
 function Roadmap() {
     return ( 
-        <div className="bg-purple-gradient py-20 xl:py-40">
+        <div className="Roadmap bg-purple-gradient py-20 xl:py-40">
             <Container>
                 <h3 className="relative z-20 ribeye-regular text-white text-4xl text-center mb-20 xl:mb-40">Roadmap</h3>
                 <div className="relative z-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-10 sm:gap-5 xl:gap-0">

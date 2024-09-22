@@ -8,7 +8,7 @@ import Mehdi from "/Mehdi.png";
 
 function Team() {
     return (
-        <div className="bg-purple-gradient pb-40 lg:pb-0">
+        <div className="Team bg-purple-gradient pb-40 lg:pb-0">
             <div className="w-full max-w-[1280px] mx-auto px-[1.25rem] md:px-[2rem] xl:px-0">
                 <h3 className="ribeye-regular text-white text-4xl text-center mb-20 xl:mb-40">Our Team Captains</h3>
                 <div className="w-full max-w-[850px] mx-auto p-5 my-5 rounded-[12px] bg-[#ffffff1c]">

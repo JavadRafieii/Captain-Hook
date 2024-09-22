@@ -2,6 +2,8 @@ import DATA from "../../../data/data";
 import Logo from "/Captain-Hook-Logo.png";
 import PresaleSlider from "../presaleSlider/PresaleSlider";
 import { useEffect, useState } from 'react';
+import { Link } from 'react-scroll';
+
 
 function HeaderDesktop({ onShow }) {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -40,8 +42,16 @@ function HeaderDesktop({ onShow }) {
                                     </svg>
                                     <ul className="hidden h-full xl:flex items-center space-x-10 open-sans-Medium text-white text-base">
                                         {DATA.HEADER_LEFT.map(item => (
-                                            <li key={item.id}>
-                                                <a href="#">{item.text}</a>
+                                            <li key={item.id} className="cursor-pointer">
+                                                <Link
+                                                    to={item.text === "$CAPT Token" ? "$CAPT-Token" : item.text}
+                                                    spy={true}
+                                                    smooth={true}
+                                                    offset={item.text === "Team" ? -200 : item.text === "$CAPT Token" ? -200 : -80}
+                                                    duration={1000}
+                                                >
+                                                    {item.text}
+                                                </Link>
                                             </li>
                                         ))}
                                     </ul>

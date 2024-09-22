@@ -25,7 +25,7 @@ function Capt() {
             <div className="relative">
                 <div className="absolute z-10 left-0 bottom-[100px] sm:bottom-[450px] md:bottom-[600px] lg:bottom-[-65px] xl:bottom-0 w-full">
                     <Container>
-                        <h3 className="ribeye-regular text-white text-4xl text-center">$CAPT TOKEN</h3>
+                        <h3 className="$CAPT-Token ribeye-regular text-white text-4xl text-center">$CAPT TOKEN</h3>
                         <div className="w-full max-w-[850px] mx-auto p-5 my-5 rounded-[12px] bg-[#ffffff1c]">
                             <p className="open-sans-Medium text-white text-lg text-center mb-3">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos tempore et dolore, suscipit, fugit eveniet quas nam asperiores temporibus ipsam ratione. Tempore ipsa vel beatae iure, alias incidunt dolor voluptate dicta ipsum? Assumenda unde officiis iure? Modi quos ex ipsa expedita explicabo nobis rerum numquam fuga aliquam, totam architecto reprehenderit.

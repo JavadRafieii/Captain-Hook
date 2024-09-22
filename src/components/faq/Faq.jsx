@@ -12,7 +12,7 @@ function Faq() {
     };
 
     return (
-        <div className="bg-purple-gradient pb-20 xl:pb-40">
+        <div className="FAQ bg-purple-gradient pb-20 xl:pb-40">
             <img src={Wood} alt="wood" loading="lazy" className="w-full h-[60px] lg:h-auto object-cover mb-20 xl:mb-40"/>
 
             <Container>

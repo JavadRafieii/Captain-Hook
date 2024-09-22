@@ -12,7 +12,7 @@ import "./style.css";
 
 function About() {
     return (
-        <div className="py-20 xl:py-40 bg-stick-about bg-[length:100%_100%]">
+        <div className="About py-20 xl:py-40 bg-stick-about bg-[length:100%_100%]">
             <Container>
                 <div className="grid grid-cols-1 lg:grid-cols-12">
                     <div className="lg:col-span-9 order-2 lg:order-1">

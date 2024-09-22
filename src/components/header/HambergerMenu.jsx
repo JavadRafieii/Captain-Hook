@@ -1,5 +1,6 @@
 import Logo from "/Captain-Hook-Logo.png";
 import DATA from "../../../data/data";
+import { Link } from "react-scroll";
 
 function HambergerMenu({ onClose, isClose }) {
     return (
@@ -23,8 +24,16 @@ function HambergerMenu({ onClose, isClose }) {
             </div>
             <ul className="flex flex-col gap-4 open-sans-Medium text-white text-base mt-6">
                 {DATA.HEADER_LEFT.map(item => (
-                    <li key={item.id}>
-                        <a href="#">{item.text}</a>
+                    <li key={item.id} className="cursor-pointer">
+                        <Link
+                            to={item.text === "$CAPT Token" ? "$CAPT-Token" : item.text}
+                            spy={true}
+                            smooth={true}
+                            offset={item.text === "Team" ? -200 : item.text === "$CAPT Token" ? -200 : -80}
+                            duration={1000}
+                        >
+                            {item.text}
+                        </Link>
                     </li>
                 ))}
             </ul>
