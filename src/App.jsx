@@ -11,6 +11,7 @@ import About from "./components/about/AboutCH";
 import Presale from "./components/presale/Presale";
 import Capt from "./components/capt/Capt";
 import Roadmap from "./components/roadmap/Roadmap";
+import Team from "./components/team/Team";
 import Faq from "./components/faq/Faq";
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <Presale />
       <Capt />
       <Roadmap />
+      <Team />
       <Faq />
       <Footer />
     </main>
